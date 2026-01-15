@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: my-first-service
+  description: "นี่คือ Service ตัวแรกที่ฉันหัดสร้างใน Backstage"
+  annotations:
+    github.com/project-slug: backstage/backstage
+spec:
+  type: service
+  lifecycle: experimental
+  owner: guest

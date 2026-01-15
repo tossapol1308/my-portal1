@@ -9,5 +9,8 @@ metadata:
   #   backstage.io/techdocs-ref: dir:.
 spec:
   type: website
-  owner: john@example.com
+  owner: guest
   lifecycle: experimental
+
+  annotations:
+    backstage.io/techdocs-ref: dir:.
